@@ -1,0 +1,19 @@
+.NavbarItems ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: springgreen;
+}
+
+.NavbarItems li {
+  display: inline-flex;
+  justify-content:space-between;
+}
+
+.NavbarItems .NavbarLogo{
+    display: flex;
+    margin-right: 1110px;
+    margin-left: 5px;
+}
+

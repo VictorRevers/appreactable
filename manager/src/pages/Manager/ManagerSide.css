@@ -1,0 +1,15 @@
+.SideBar ul{
+    height: 50vh;
+    list-style: none;
+    background-color: springgreen;
+    margin: 0;
+    padding: 0;
+}
+.SideBar li{
+   padding: 15px;
+    
+}
+
+.SideBar Link{
+   color: black;
+}
