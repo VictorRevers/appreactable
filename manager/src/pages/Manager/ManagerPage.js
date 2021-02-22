@@ -22,14 +22,7 @@ export default function Manager(){
             console.log(err);
         });
     });
-
     console.log(data);
-
-  
-      
-
-    
-       
     return(
         <div className="content"> 
             <ManagerNav />

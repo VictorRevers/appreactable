@@ -20,9 +20,7 @@ connection.authenticate().then(()=>{
 
  app.get('/functionary', (req, res)=>{
      Functionary.findAll().then((functionaries)=>{
-        res.json({
-            functionaries: functionaries
-        });
+        res.send(functionaries)
         res.status(200);
     }).catch(error=>{
         res.json(error);
